@@ -1,3 +1,4 @@
+b = int(input('Введите число из первой вставки:  '))
 def parole(a):
     par_e = str()
     for i in range(1, a-1):
@@ -6,5 +7,5 @@ def parole(a):
                 par_e = par_e + str(i)
                 par_e = par_e + str(k)
     return par_e
-ppp = parole(20)   # аргумент функции - число, для которого вычисляется пароль
-print(ppp)
+ppp = parole(b)
+print('Пароль: ', ppp)
