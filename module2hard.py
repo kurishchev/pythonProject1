@@ -6,5 +6,5 @@ def parole(a):
                 par_e = par_e + str(i)
                 par_e = par_e + str(k)
     return par_e
-ppp = parole(20)
+ppp = parole(20)   # аргумент функции - число, для которого вычисляется пароль
 print(ppp)
