@@ -1,0 +1,10 @@
+def parole(a):
+    par_e = str()
+    for i in range(1, a-1):
+        for k in range(1, a-i):
+            if a % i+k == 0:
+                par_e = par_e + str(i)
+                par_e = par_e + str(k)
+    return par_e
+ppp = parole(20)
+print(ppp)
